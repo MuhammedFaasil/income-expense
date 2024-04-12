@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460060665147",
+    "project_id": "income-expense-efb92",
+    "storage_bucket": "income-expense-efb92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460060665147:android:c952e0ee218a01bb72431e",
+        "android_client_info": {
+          "package_name": "com.example.income_expence_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKjevnyysl8NPi21Hrspd_m7k65-KYbZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
