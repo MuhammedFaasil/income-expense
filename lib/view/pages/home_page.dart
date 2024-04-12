@@ -9,37 +9,8 @@ class HomePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Income & Expense'),
+          title: const Text('MoneyWell'),
         ),
-        body: const IncomeExpenseTabBarWidget()
-        // body: SingleChildScrollView(
-        //   child: Column(
-        //     children: [
-        //       SizedBox(
-        //         height: 400,
-        //         child: ListView.builder(
-        //           shrinkWrap: true,
-        //           itemCount: income.length,
-        //           itemBuilder: (context, index) {
-        //             if (income.isEmpty) {
-        //               Text(
-        //                 'No Data',
-        //                 style: TextStyle(fontSize: 20, color: Colors.black),
-        //               );
-        //             }
-        //             final transaction = income[index];
-        //             return ListTile(
-        //               title: Text(
-        //                 '${transaction.type}: \$${transaction.amount.toStringAsFixed(2)}',
-        //                 style: TextStyle(color: Colors.black),
-        //               ),
-        //             );
-        //           },
-        //         ),
-        //       ),
-        //     ],
-        //   ),
-        // ),
-        );
+        body: const IncomeExpenseTabBarWidget());
   }
 }
